@@ -1,0 +1,6 @@
+framework module Pods_SmartTV {
+  umbrella header "Pods-SmartTV-umbrella.h"
+
+  export *
+  module * { export * }
+}

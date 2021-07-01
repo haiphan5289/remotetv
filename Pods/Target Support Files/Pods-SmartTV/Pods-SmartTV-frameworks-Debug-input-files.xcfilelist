@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-SmartTV/Pods-SmartTV-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${PODS_ROOT}/smart-view-sdk/SmartViewSDK-iOS/iphoneos+iphonesimulator/SmartView.framework
