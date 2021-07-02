@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FB49784BF17A2B97B4ED2B2 /* Pods_SmartTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844C0701C729C7E92C5F7BFE /* Pods_SmartTV.framework */; };
 		2E6F13BF268D998800ADD2E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F13BE268D998800ADD2E3 /* AppDelegate.swift */; };
 		2E6F13C1268D998800ADD2E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F13C0268D998800ADD2E3 /* SceneDelegate.swift */; };
 		2E6F13C3268D998800ADD2E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F13C2268D998800ADD2E3 /* ViewController.swift */; };
@@ -17,11 +18,10 @@
 		2E6F13DE268DA88900ADD2E3 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F13DD268DA88900ADD2E3 /* PhotoCell.swift */; };
 		2E6F13E1268DA96800ADD2E3 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F13E0268DA96800ADD2E3 /* PhotoCollectionView.swift */; };
 		2E6F13E4268DAA8300ADD2E3 /* ListDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F13E3268DAA8300ADD2E3 /* ListDevice.swift */; };
-		93E66E2D67F05DD33DBD301F /* Pods_SmartTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F3AEC109C616A540BA60CD /* Pods_SmartTV.framework */; };
+		938C447E268ECA2000F8EE21 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938C447D268ECA2000F8EE21 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27F675F4C9167126DE5ADAB5 /* Pods-SmartTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTV.release.xcconfig"; path = "Target Support Files/Pods-SmartTV/Pods-SmartTV.release.xcconfig"; sourceTree = "<group>"; };
 		2E6F13BB268D998800ADD2E3 /* SmartTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6F13BE268D998800ADD2E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E6F13C0268D998800ADD2E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +34,11 @@
 		2E6F13DD268DA88900ADD2E3 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		2E6F13E0268DA96800ADD2E3 /* PhotoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
 		2E6F13E3268DAA8300ADD2E3 /* ListDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDevice.swift; sourceTree = "<group>"; };
-		DC6FC9CF4F648CAD86F06E6F /* Pods-SmartTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTV.debug.xcconfig"; path = "Target Support Files/Pods-SmartTV/Pods-SmartTV.debug.xcconfig"; sourceTree = "<group>"; };
-		E8F3AEC109C616A540BA60CD /* Pods_SmartTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844C0701C729C7E92C5F7BFE /* Pods_SmartTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938C447C268EC9F800F8EE21 /* SmartTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartTV.entitlements; sourceTree = "<group>"; };
+		938C447D268ECA2000F8EE21 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		C167F50E81AD624894F96377 /* Pods-SmartTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTV.debug.xcconfig"; path = "Target Support Files/Pods-SmartTV/Pods-SmartTV.debug.xcconfig"; sourceTree = "<group>"; };
+		DBDC2C6E0C8734607C657595 /* Pods-SmartTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartTV.release.xcconfig"; path = "Target Support Files/Pods-SmartTV/Pods-SmartTV.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,28 +46,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93E66E2D67F05DD33DBD301F /* Pods_SmartTV.framework in Frameworks */,
+				0FB49784BF17A2B97B4ED2B2 /* Pods_SmartTV.framework in Frameworks */,
+				938C447E268ECA2000F8EE21 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EDAE681F3A229FAD930F6EB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E8F3AEC109C616A540BA60CD /* Pods_SmartTV.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		2E6F13B2268D998800ADD2E3 = {
 			isa = PBXGroup;
 			children = (
 				2E6F13BD268D998800ADD2E3 /* SmartTV */,
 				2E6F13BC268D998800ADD2E3 /* Products */,
 				4BC38510B0560E5B4CFA10A9 /* Pods */,
-				0EDAE681F3A229FAD930F6EB /* Frameworks */,
+				50D63949CECF3DE7EC9AB2C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +75,7 @@
 		2E6F13BD268D998800ADD2E3 /* SmartTV */ = {
 			isa = PBXGroup;
 			children = (
+				938C447C268EC9F800F8EE21 /* SmartTV.entitlements */,
 				2E6F13BE268D998800ADD2E3 /* AppDelegate.swift */,
 				2E6F13C0268D998800ADD2E3 /* SceneDelegate.swift */,
 				2E6F13C2268D998800ADD2E3 /* ViewController.swift */,
@@ -97,10 +94,19 @@
 		4BC38510B0560E5B4CFA10A9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC6FC9CF4F648CAD86F06E6F /* Pods-SmartTV.debug.xcconfig */,
-				27F675F4C9167126DE5ADAB5 /* Pods-SmartTV.release.xcconfig */,
+				C167F50E81AD624894F96377 /* Pods-SmartTV.debug.xcconfig */,
+				DBDC2C6E0C8734607C657595 /* Pods-SmartTV.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		50D63949CECF3DE7EC9AB2C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				938C447D268ECA2000F8EE21 /* CloudKit.framework */,
+				844C0701C729C7E92C5F7BFE /* Pods_SmartTV.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,11 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E6F13CF268D998A00ADD2E3 /* Build configuration list for PBXNativeTarget "SmartTV" */;
 			buildPhases = (
-				1FD2953A51C32374C13BB0D1 /* [CP] Check Pods Manifest.lock */,
+				0BC2965B8E5E533B8F3E6D07 /* [CP] Check Pods Manifest.lock */,
 				2E6F13B7268D998800ADD2E3 /* Sources */,
 				2E6F13B8268D998800ADD2E3 /* Frameworks */,
 				2E6F13B9268D998800ADD2E3 /* Resources */,
-				E2866BD88F3DD39F3CB909F6 /* [CP] Embed Pods Frameworks */,
+				3C4E0F6E47C8D82CF8E4FBE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,7 +177,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FD2953A51C32374C13BB0D1 /* [CP] Check Pods Manifest.lock */ = {
+		0BC2965B8E5E533B8F3E6D07 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,7 +199,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2866BD88F3DD39F3CB909F6 /* [CP] Embed Pods Frameworks */ = {
+		3C4E0F6E47C8D82CF8E4FBE7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,10 +373,11 @@
 		};
 		2E6F13D0268D998A00ADD2E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC6FC9CF4F648CAD86F06E6F /* Pods-SmartTV.debug.xcconfig */;
+			baseConfigurationReference = C167F50E81AD624894F96377 /* Pods-SmartTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartTV/SmartTV.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VA7N3EEEN;
 				INFOPLIST_FILE = SmartTV/Info.plist;
@@ -388,10 +395,11 @@
 		};
 		2E6F13D1268D998A00ADD2E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F675F4C9167126DE5ADAB5 /* Pods-SmartTV.release.xcconfig */;
+			baseConfigurationReference = DBDC2C6E0C8734607C657595 /* Pods-SmartTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartTV/SmartTV.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VA7N3EEEN;
 				INFOPLIST_FILE = SmartTV/Info.plist;

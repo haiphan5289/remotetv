@@ -10,7 +10,7 @@ PODS:
 DEPENDENCIES:
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
-  - smart-view-sdk
+  - smart-view-sdk (~> 3)
 
 SPEC REPOS:
   trunk:
@@ -25,6 +25,6 @@ SPEC CHECKSUMS:
   RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
   smart-view-sdk: 2300fbb10e64c1db208556182c9525347a2067ae
 
-PODFILE CHECKSUM: 29819f55e1a23e842625f0f490b7d9ce2ccf296b
+PODFILE CHECKSUM: 11faf234135082990a7873f8765550ad1877859b
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.9.3

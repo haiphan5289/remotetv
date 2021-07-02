@@ -7,7 +7,7 @@ target 'SmartTV' do
 
   # Pods for SmartTV
 
-pod 'smart-view-sdk'
+pod 'smart-view-sdk', '~> 3'
 pod 'RxSwift', '~> 5'
 pod 'RxCocoa', '~> 5'
 

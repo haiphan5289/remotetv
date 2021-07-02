@@ -45,19 +45,24 @@ class ViewController: UIViewController {
     func connect(_ service: Service) {
         
         // Example for installed app
-        let appId: String = "111299000796"
+//        let appId: String = "111299000796"
         // Example for web app
 //        let appId: URL = URL(string: "http://yourwebapp.com")
         
-        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
+//        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0]
                 //If convert to m4a is Error, try to use like .caf or .aifc or aiff.
 //                var appId = URL(fileURLWithPath: documentsPath)
         
-        let channelID: String = "com.samsung.multiscreen.photoshare"
+//        let channelID: String = "com.samsung.multiscreen.photoshare"
 //        com.samsung.multiscreen.photoshare
+        
+        let appURL: String = "http://prod-multiscreen-examples.s3-website-us-west-1.amazonaws.com/examples/photoshare/tv/"
+        let channelId: String = "com.samsung.multiscreen.photoshare"
+        
+        
 
         if (app == nil){
-        app = service.createApplication(appId as AnyObject,channelURI: channelID, args: nil)
+        app = service.createApplication(URL(string: appURL)! as AnyObject,channelURI: channelId, args: nil)
         }
         app?.delegate = self
 
